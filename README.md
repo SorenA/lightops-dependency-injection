@@ -4,6 +4,11 @@ Dependency Injection package for .NET Standard.
 
 ![Nuget](https://img.shields.io/nuget/v/LightOps.DependencyInjection)
 
+| Branch | CI |
+| --- | --- |
+| master | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/SorenA.lightops-dependency-injection?branchName=master) |
+| develop | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/SorenA.lightops-dependency-injection?branchName=develop) |
+
 ## Concepts
 
 The package defines the following concepts.
