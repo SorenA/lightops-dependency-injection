@@ -1,15 +1,14 @@
 ﻿using LightOps.DependencyInjection.Api.Providers;
 using LightOps.DependencyInjection.Configuration;
-using LightOps.DependencyInjection.Test.Fixtures;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
 namespace LightOps.DependencyInjection.Test.Tests
 {
-    public class ComponentTests : IClassFixture<BasicComponentFixture>
+    public class ComponentTests
     {
         [Fact]
-        public void TestComponentIsAttached()
+        public void TestComponent_IsAttached()
         {
             var services = new ServiceCollection();
 
@@ -26,13 +25,13 @@ namespace LightOps.DependencyInjection.Test.Tests
         }
 
         [Fact]
-        public void TestComponentConfiguration_Invoked()
+        public void TestComponent_Configuration_Invoked()
         {
             var services = new ServiceCollection();
 
             // Add component
             var invoked = false;
-            services.AddLightOpsDependencyInjection(component =>
+            services.AddLightOpsDependencyInjection(root =>
             {
                 invoked = true;
             });
