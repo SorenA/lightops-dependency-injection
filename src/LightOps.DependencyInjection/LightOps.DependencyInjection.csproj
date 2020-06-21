@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageId>LightOps.DependencyInjection</PackageId>
+    <Authors>SorenA</Authors>
+    <Description>.NET Standard package for Dependency Injection.</Description>
+    <IsPackable>true</IsPackable>
+    <RepositoryUrl>https://github.com/SorenA/lightops-dependency-injection</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
