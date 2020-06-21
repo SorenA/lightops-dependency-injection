@@ -8,6 +8,7 @@
     <Description>.NET Standard package for Dependency Injection.</Description>
     <IsPackable>true</IsPackable>
     <RepositoryUrl>https://github.com/SorenA/lightops-dependency-injection</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
