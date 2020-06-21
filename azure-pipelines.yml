@@ -85,6 +85,7 @@ stages:
               projects: '**/*.csproj'
 
           - task: DotNetCoreCLI@2
+            displayName: Dotnet test
             inputs:
               command: test
               projects: '**/*.Test/*.csproj'
