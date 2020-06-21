@@ -7,11 +7,13 @@ namespace LightOps.DependencyInjection.Configuration
     /// </summary>
     public interface IDependencyInjectionRootComponent
     {
+        #region Components
         /// <summary>
         /// Attaches a component to the root component
         /// </summary>
         /// <param name="component">The component to attach</param>
         /// <returns>Returns root component for chaining</returns>
         IDependencyInjectionRootComponent AttachComponent(IDependencyInjectionComponent component);
+        #endregion Components
     }
 }

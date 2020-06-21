@@ -30,13 +30,13 @@ Register during startup through the `AddLightOpsDependencyInjection` extension o
 
 ```csharp
 // Add root component
-services.AddLightOpsDependencyInjection(component =>
+services.AddLightOpsDependencyInjection(root =>
 {
     // Register other components
     // ...
 });
 ```
 
-### Required components
+### Required component dependencies
 
 None.
