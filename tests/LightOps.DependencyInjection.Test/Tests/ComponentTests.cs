@@ -17,7 +17,7 @@ namespace LightOps.DependencyInjection.Test.Tests
 
             var serviceProvider = services.BuildServiceProvider();
 
-            // Get 
+            // Get component state provider
             var dependencyInjectionComponentStateProvider = serviceProvider.GetService<IDependencyInjectionComponentStateProvider>();
 
             Assert.Contains("lightops.dependency-injection",

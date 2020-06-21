@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2020-06-21
+
 ### Added
 
 - Test project with unit tests and end-to-end service container registration tests
@@ -25,5 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `ServiceRegistration` configuration model
 - `IServiceCollection` extension `AddLightOpsDependencyInjection` to bootstrap the root component
 
-[unreleased]: https://github.com/SorenA/lightops-dependency-injection/compare/0.1.0...develop
+[unreleased]: https://github.com/SorenA/lightops-dependency-injection/compare/0.1.1...develop
+[0.1.0]: https://github.com/SorenA/lightops-dependency-injection/tree/0.1.1
 [0.1.0]: https://github.com/SorenA/lightops-dependency-injection/tree/0.1.0
