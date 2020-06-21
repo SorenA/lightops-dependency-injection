@@ -85,6 +85,12 @@ stages:
               projects: '**/*.csproj'
 
           - task: DotNetCoreCLI@2
+            inputs:
+              command: test
+              projects: '**/*.Test/*.csproj'
+              arguments: '--configuration $(buildConfiguration)'
+
+          - task: DotNetCoreCLI@2
             displayName: Dotnet pack
             inputs:
               command: pack
