@@ -6,8 +6,8 @@ Dependency Injection package for .NET Standard.
 
 | Branch | CI |
 | --- | --- |
-| master | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/SorenA.lightops-dependency-injection?branchName=master) |
-| develop | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/SorenA.lightops-dependency-injection?branchName=develop) |
+| master | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/LightOps.DependencyInjection?branchName=master) |
+| develop | ![Build Status](https://dev.azure.com/sorendev/LightOps%20Packages/_apis/build/status/LightOps.DependencyInjection?branchName=develop) |
 
 ## Concepts
 
